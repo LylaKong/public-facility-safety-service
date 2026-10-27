@@ -4,3 +4,5 @@ dist
 client/node_modules
 client/dist
 *.log
+
+.vercel
