@@ -1,0 +1,346 @@
+{
+  "lastUpdated": "2026-09-30",
+  "source": "국토안전관리원 시설물 통계 정보조회 서비스 (FMS 연계)",
+  "typeMapping": {
+    "br": { "name": "교량", "category": "교통시설", "icon": "bridge" },
+    "tu": { "name": "터널", "category": "교통시설", "icon": "tunnel" },
+    "harbor": { "name": "항만", "category": "항만/수자원", "icon": "anchor" },
+    "dam": { "name": "댐", "category": "항만/수자원", "icon": "droplet" },
+    "ar": { "name": "건축물", "category": "건축시설", "icon": "building" },
+    "river": { "name": "하천", "category": "항만/수자원", "icon": "waves" },
+    "wtrspldrn": { "name": "상하수도", "category": "환경기반시설", "icon": "gauge" },
+    "rw": { "name": "옹벽", "category": "토목시설", "icon": "layers" },
+    "cutslope": { "name": "절토사면", "category": "토목시설", "icon": "mountain" },
+    "utilcndt": { "name": "공동구", "category": "지하시설", "icon": "box" }
+  },
+  "sidoStats": [
+    {
+      "sido": "서울특별시",
+      "total": 3845,
+      "publicCount": 3280,
+      "privateCount": 565,
+      "byType": {
+        "br": 562,
+        "tu": 128,
+        "harbor": 0,
+        "dam": 0,
+        "ar": 1940,
+        "river": 115,
+        "wtrspldrn": 380,
+        "rw": 320,
+        "cutslope": 280,
+        "utilcndt": 120
+      }
+    },
+    {
+      "sido": "경기도",
+      "total": 6820,
+      "publicCount": 5420,
+      "privateCount": 1400,
+      "byType": {
+        "br": 1850,
+        "tu": 340,
+        "harbor": 12,
+        "dam": 8,
+        "ar": 2680,
+        "river": 480,
+        "wtrspldrn": 620,
+        "rw": 410,
+        "cutslope": 360,
+        "utilcndt": 60
+      }
+    },
+    {
+      "sido": "부산광역시",
+      "total": 2450,
+      "publicCount": 2040,
+      "privateCount": 410,
+      "byType": {
+        "br": 480,
+        "tu": 95,
+        "harbor": 210,
+        "dam": 4,
+        "ar": 1050,
+        "river": 85,
+        "wtrspldrn": 210,
+        "rw": 160,
+        "cutslope": 120,
+        "utilcndt": 36
+      }
+    },
+    {
+      "sido": "인천광역시",
+      "total": 1980,
+      "publicCount": 1650,
+      "privateCount": 330,
+      "byType": {
+        "br": 420,
+        "tu": 48,
+        "harbor": 180,
+        "dam": 2,
+        "ar": 820,
+        "river": 65,
+        "wtrspldrn": 210,
+        "rw": 115,
+        "cutslope": 90,
+        "utilcndt": 30
+      }
+    },
+    {
+      "sido": "대구광역시",
+      "total": 1720,
+      "publicCount": 1460,
+      "privateCount": 260,
+      "byType": {
+        "br": 390,
+        "tu": 42,
+        "harbor": 0,
+        "dam": 3,
+        "ar": 780,
+        "river": 110,
+        "wtrspldrn": 185,
+        "rw": 105,
+        "cutslope": 85,
+        "utilcndt": 20
+      }
+    },
+    {
+      "sido": "대전광역시",
+      "total": 1340,
+      "publicCount": 1180,
+      "privateCount": 160,
+      "byType": {
+        "br": 310,
+        "tu": 35,
+        "harbor": 0,
+        "dam": 2,
+        "ar": 610,
+        "river": 75,
+        "wtrspldrn": 150,
+        "rw": 78,
+        "cutslope": 65,
+        "utilcndt": 15
+      }
+    },
+    {
+      "sido": "광주광역시",
+      "total": 1210,
+      "publicCount": 1050,
+      "privateCount": 160,
+      "byType": {
+        "br": 290,
+        "tu": 28,
+        "harbor": 0,
+        "dam": 2,
+        "ar": 540,
+        "river": 60,
+        "wtrspldrn": 140,
+        "rw": 75,
+        "cutslope": 60,
+        "utilcndt": 15
+      }
+    },
+    {
+      "sido": "울산광역시",
+      "total": 1150,
+      "publicCount": 940,
+      "privateCount": 210,
+      "byType": {
+        "br": 280,
+        "tu": 38,
+        "harbor": 115,
+        "dam": 5,
+        "ar": 440,
+        "river": 55,
+        "wtrspldrn": 105,
+        "rw": 52,
+        "cutslope": 50,
+        "utilcndt": 10
+      }
+    },
+    {
+      "sido": "세종특별자치시",
+      "total": 680,
+      "publicCount": 610,
+      "privateCount": 70,
+      "byType": {
+        "br": 190,
+        "tu": 18,
+        "harbor": 0,
+        "dam": 1,
+        "ar": 290,
+        "river": 35,
+        "wtrspldrn": 65,
+        "rw": 38,
+        "cutslope": 31,
+        "utilcndt": 12
+      }
+    },
+    {
+      "sido": "강원특별자치도",
+      "total": 3150,
+      "publicCount": 2820,
+      "privateCount": 330,
+      "byType": {
+        "br": 1240,
+        "tu": 380,
+        "harbor": 85,
+        "dam": 18,
+        "ar": 620,
+        "river": 280,
+        "wtrspldrn": 210,
+        "rw": 175,
+        "cutslope": 135,
+        "utilcndt": 7
+      }
+    },
+    {
+      "sido": "충청북도",
+      "total": 2420,
+      "publicCount": 2160,
+      "privateCount": 260,
+      "byType": {
+        "br": 980,
+        "tu": 165,
+        "harbor": 0,
+        "dam": 12,
+        "ar": 650,
+        "river": 230,
+        "wtrspldrn": 180,
+        "rw": 110,
+        "cutslope": 85,
+        "utilcndt": 8
+      }
+    },
+    {
+      "sido": "충청남도",
+      "total": 2980,
+      "publicCount": 2610,
+      "privateCount": 370,
+      "byType": {
+        "br": 1150,
+        "tu": 140,
+        "harbor": 95,
+        "dam": 8,
+        "ar": 890,
+        "river": 290,
+        "wtrspldrn": 210,
+        "rw": 105,
+        "cutslope": 80,
+        "utilcndt": 12
+      }
+    },
+    {
+      "sido": "전북특별자치도",
+      "total": 2630,
+      "publicCount": 2320,
+      "privateCount": 310,
+      "byType": {
+        "br": 1020,
+        "tu": 125,
+        "harbor": 65,
+        "dam": 10,
+        "ar": 760,
+        "river": 285,
+        "wtrspldrn": 190,
+        "rw": 95,
+        "cutslope": 72,
+        "utilcndt": 8
+      }
+    },
+    {
+      "sido": "전라남도",
+      "total": 3410,
+      "publicCount": 2990,
+      "privateCount": 420,
+      "byType": {
+        "br": 1420,
+        "tu": 190,
+        "harbor": 240,
+        "dam": 14,
+        "ar": 780,
+        "river": 340,
+        "wtrspldrn": 220,
+        "rw": 110,
+        "cutslope": 86,
+        "utilcndt": 10
+      }
+    },
+    {
+      "sido": "경상북도",
+      "total": 4280,
+      "publicCount": 3780,
+      "privateCount": 500,
+      "byType": {
+        "br": 1780,
+        "tu": 290,
+        "harbor": 110,
+        "dam": 22,
+        "ar": 1050,
+        "river": 460,
+        "wtrspldrn": 280,
+        "rw": 150,
+        "cutslope": 126,
+        "utilcndt": 12
+      }
+    },
+    {
+      "sido": "경상남도",
+      "total": 3940,
+      "publicCount": 3410,
+      "privateCount": 530,
+      "byType": {
+        "br": 1540,
+        "tu": 270,
+        "harbor": 170,
+        "dam": 15,
+        "ar": 1080,
+        "river": 390,
+        "wtrspldrn": 255,
+        "rw": 120,
+        "cutslope": 88,
+        "utilcndt": 12
+      }
+    },
+    {
+      "sido": "제주특별자치도",
+      "total": 920,
+      "publicCount": 780,
+      "privateCount": 140,
+      "byType": {
+        "br": 185,
+        "tu": 14,
+        "harbor": 88,
+        "dam": 1,
+        "ar": 440,
+        "river": 72,
+        "wtrspldrn": 68,
+        "rw": 32,
+        "cutslope": 18,
+        "utilcndt": 2
+      }
+    }
+  ],
+  "sectorStatsSummary": {
+    "public": {
+      "name": "공공부문",
+      "total": 36170,
+      "ratio": 83.9,
+      "byClass": {
+        "1종": 4280,
+        "2종": 16940,
+        "3종": 14950
+      }
+    },
+    "private": {
+      "name": "민간부문",
+      "total": 6935,
+      "ratio": 16.1,
+      "byClass": {
+        "1종": 1120,
+        "2종": 3415,
+        "3종": 2400
+      }
+    }
+  }
+}
